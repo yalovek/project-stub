@@ -1,0 +1,29 @@
+.header__nameplate {
+    z-index: 3;
+    font-size: 17px;
+    line-height: 28px;
+    position: relative;
+    display: inline-block;
+    padding: 0 12px;
+    white-space: nowrap;
+    border: 2px solid #fc0;
+    border-right: 0;
+    background: #fff;
+    color: #000 !important;
+    text-decoration: none
+}
+.header__nameplate:after {
+    position: absolute;
+    top: -2px;
+    left: 100%;
+    width: 32px;
+    height: 32px;
+    content: '';
+    transform: scale(0.354, 0.707) rotate(45deg);
+    transform-origin: 0 0;
+    border-style: solid;
+    border-color: #fc0 #fc0 #fff #fff;
+    border-width: 4.6px 4.6px 0 0;
+    background: #fff;
+    box-sizing: border-box
+}
